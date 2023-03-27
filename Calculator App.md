@@ -23,4 +23,7 @@ After the user enters their numbers and selects the desired operation, they can 
 ## Figma File
 https://www.figma.com/file/8KLp5d9Xe4SPxqxFuBEv5k/Untitled?node-id=0%3A1&t=vhOJgJO6arq5evQR-1
 ## Mermaid Diagram
-https://mermaid.live/edit#pako:eNpNzsuqAjEMBuBXCVkp6AvMQlDHJzjqxroI04wWehnS1guO724G4WAXoSRfwv_CLlnGBnuf7t2VpMC-NRH0rU-HzAIcC0sGgkDlylpcRx74MQjn7FI8w3K5gs1sdyNfqTCo-hnPv8c2kxp3IklG2J5alwdPT-CpAUEpXfj8S4_knR2h_ad6r_qiBhcYWAI5q7Ff047BKRkbbPRruSeFBk18K6Va0t8zdtgUqbzAOlgN2Tq6CAVsevKZ3x_FQVmW
+flowchart TD
+    A[User enters a mathematical expression] --> B(Evaluate the expression)
+    B -->|Error| C[Display error message]
+    B -->|Valid| D[Display result]
