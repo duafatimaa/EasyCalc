@@ -29,7 +29,18 @@ https://www.figma.com/file/8KLp5d9Xe4SPxqxFuBEv5k/Untitled?node-id=0%3A1&t=vhOJg
 ```mermaid
 
 flowchart TD
-    A[User enters a mathematical expression] --> B(Evaluate the expression)
-    B -->|Error| C[Display error message]
-    B -->|Valid| D[Display result]
+  Input[Input A and B]
+  Calc{Calculator}
+  Output[Output Result]
+
+  Input --> Calc
+  Calc -->|+| Add[Addition]
+  Calc -->|-| Subtract[Subtraction]
+  Calc -->|x| Multiply[Multiplication]
+  Calc -->|/| Divide[Division]
+  Add --> Output
+  Subtract --> Output
+  Multiply --> Output
+  Divide --> Output
+
 ```
