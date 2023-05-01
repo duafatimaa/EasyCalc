@@ -5,6 +5,10 @@ The calculator app is a program that is developed using the Python programming l
 
 The code for the calculator app is divided into two main branches, which are "functions" and "gui." The "functions" branch contains the functions or the code that performs the arithmetic operations. This branch contains the basic arithmetic functions such as addition, subtraction, multiplication, and division. These functions are responsible for performing the calculations based on the input provided by the user.
 
+On the other hand, the "gui" branch contains the code that creates the graphical user interface of the calculator app. This branch contains code that creates the buttons, text boxes, and other graphical elements of the app. The GUI provides a simple and intuitive way for users to interact with the calculator and input their desired values.
+
+Overall, the two main branches of the calculator app's code work together to provide a seamless user experience. The "functions" branch is responsible for performing the calculations, while the "gui" branch creates the user interface that allows users to input their desired values and view the results.
+
 ## Functions Branch: 
 The "functions" branch contains the core logic of the app, including a calculator function that performs the calculations. It uses an atomic model folder structure, which organizes the code into small, independent modules.
 
