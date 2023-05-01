@@ -1,7 +1,9 @@
 # EeasyCalc
 
 # Calculator App
-The calculator app is a program that allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. It is built using the Python programming language and a GUI (Graphical User Interface) framework called tkinter. The app's code is divided into two main branches: "functions" and "gui."
+The calculator app is a program that is developed using the Python programming language, and it has a GUI built using the tkinter framework. The program is designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+The code for the calculator app is divided into two main branches, which are "functions" and "gui." The "functions" branch contains the functions or the code that performs the arithmetic operations. This branch contains the basic arithmetic functions such as addition, subtraction, multiplication, and division. These functions are responsible for performing the calculations based on the input provided by the user.
 
 ## Functions Branch: 
 The "functions" branch contains the core logic of the app, including a calculator function that performs the calculations. It uses an atomic model folder structure, which organizes the code into small, independent modules.
